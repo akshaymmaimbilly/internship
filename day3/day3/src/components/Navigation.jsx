@@ -7,9 +7,9 @@ const Navigation = () => {
     <div>
         <AppBar>
             <Toolbar>
-                <Typography align='left' sx={{flexGrow:1}}>TrialApp</Typography>
-                <Button> <Link to={'/'} style={{color:"white"}}>add</Link></Button>
-                <Button> <Link to={'/table'} style={{color:"white"}}>view</Link></Button>
+                <Typography  sx={{flexGrow:1}} align ="left">Student app</Typography>
+                <Button> <Link to={'/student'} style={{color:"white"}}>Add</Link></Button>
+                <Button> <Link to={'/view'} style={{color:"white"}}>view</Link></Button>
             </Toolbar>
         </AppBar>
     </div>
