@@ -2,6 +2,8 @@
 
 const express = require('express');
 const studentmodel = require('./model');
+const cors = require('cors')
+
 
 // 2.initializing
 const app= new express();
@@ -9,6 +11,7 @@ const app= new express();
 // 3.milddleware
 app.use(express.urlencoded({extended:true}));
 app.use(express.json());
+app.use(cors());
 
 // 3.api
 // to post data
